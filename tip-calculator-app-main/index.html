@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+  </style>
+</head>
+<body>
+  <header>
+
+  </header>
+<div class="container">
+  <div class="bill-form">
+    <label for="bill">Bill</label>
+    <input type="number" name="Bill" id="bill" placeholder="0" min="0" class="inputs">
+  </div>
+  <div class="tip-button">
+    <h3 class="select-tip">Select Tip %</h3>
+    <button class="tip-btn" id="tip5">
+      5%
+    </button>
+    <button class="tip-btn" id="tip10">
+      10%
+    </button>
+    <button class="tip-btn" id="tip15">
+      15%
+    </button>
+    <button class="tip-btn" id="tip25">
+      25%
+    </button>
+    <button class="tip-btn" id="tip50">
+      50%
+    </button>
+    <input placeholder="Custom" id="tipCustom" type="number" min="0" max="100">
+  </input>
+  </div>
+  <div class="form-ppl">
+    <label for="numPeople">Number of People</label>
+    <input type="number" class="inputs" id="numPeople" placeholder="2" min="0">
+  </div>
+  <div class="tip-section">
+    <p class="tip-amount tip-title" >Tip Amount</p>
+    <p class="tip-value" id="tipAmount">0</p>
+    <p class="total-amount tip-title">Total</p>
+    <p class="tip-value" id="totalAmount">0</p>
+    <button class="reset-btn" id="resetBtn">RESET</button>
+
+<script src="app.js"></script>
+  </div>
+
+</div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
